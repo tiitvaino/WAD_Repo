@@ -57,7 +57,7 @@
 				</tr>
 				<tr>
 					<td>4</td>
-					<td><a href="https://courses.cs.ut.ee/" target="_BLANK">Estonian language Level A2</a></td>
+					<td><a href="https://courses.cs.ut.ee/2020/Algorithmics/fall" target="_BLANK">Algorithmics</a></td>
 					<td>Semester 2 fall</td>
 					<td>65</td>
 				</tr>
@@ -65,18 +65,18 @@
 				<tfoot>
 					<form>
 						<tr>
-							<td colspan="2"><button>Add new course</button></td>
+							<td>5</td>
+							<td><input type="text" name="title" value="new course title"></td>
+							<td><select name="semester">
+								  <option value="Semester|1|fall">Semester 1 fall</option>
+								  <option value="Semester|1|spring">Semester 1 spring</option>
+								  <option value="Semester|2|fall">Semester 2 fall</option>
+								  <option value="Semester|2|spring">Semester 2 spring</option>
+							</select></td>
+							<td><input type="number" name="grade" min="0" max="100" value="0"></td>
 						</tr>
 						<tr>
-							<td></td>
-							<td><input type="text" name="title"></td>
-							<td><select name="semester">
-								  <option value="volvo">Semester 1 fall</option>
-								  <option value="saab">Semester 1 spring</option>
-								  <option value="fiat">Semester 2 fall</option>
-								  <option value="audi">Semester 2 spring</option>
-								</select></td>
-							<td><input type="number" name="grade" min="0" max="100"></td>
+							<td colspan="4"><button>Add new course</button></td>
 						</tr>
 					</form>
 				</tfoot>
